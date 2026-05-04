@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Project styleOS </title>
+<link rel="stylesheet" href="Style_Website.css">
+<link rel="shortcut icon" href="images/com-usb-stock-svgrepo-com.svg" type="images/x-icon" >
+</head>
+<body>
+    <header class="HEADER_site">
+        <nav class="NAV">
+           <img src="./images/лого.png" class="LOGO">
+        </nav>
+        <nav class="NAV_site">
+           Project StyleOS
+        </nav>
+    </header>
+<div>
+    <div class="Content parallax">
+        <h6 class="Text">РАЗРАБОТКА<br>ОПЕРАЦИОННЫХ<br>СИСТЕМ</h6>
+    </div>
+    <div class="Content_2 parallax">
+        <h6 class="Text_2">О ПРОЕКТЕ</h6>
+        <p class="Describe">StyleOS — это учебно-исследовательская операционная система,<br> разрабатываемая с нуля. Основные цели проекта: изучение при-
+                        <br>нципов работы современных ОС на практике, создание лёгкой,
+                        <br>быстрой и безопасной среды для программирования и учёбы,
+                        <br>реализация собственного микроядра с минимальным набором 
+                        <br>сервисов.
+                        <br>На данный момент реализованы: загрузчик (bootloader) с под-<br>держкой UEFI и Legacy BIOS, базовое управление памятью 
+                        <br>(страничная адресация, выделение страниц), простейший план-
+                        <br>ировщик задач с переключением контекста, драйверы клавиатуры
+                        <br>и видеопамяти (текстовый режим), файловая система FAT32 для 
+                        <br>загрузочного раздела.
+        </p>
+    </div>
+    <div class="Content_3 parallax">
+         <h6 class="Text_3">КОМАНДА РАЗРАБОТЧИКОВ</h6>
+        <img src="./images/Group 1.png", class="Black">
+        <p class="Describe_2">Сергей Волков
+         <br>Разработчик загрузчика (Bootloader)<br></p>
+         <p class="Describe_3"><br> Отвечает за инициализацию системы, поддержку<br> UEFI/Legacy BIOS,
+         переход в защищённый/долгий режим.<br>
+         Реализовал загрузчик с нуля, поддержку FAT32,<br>
+         настройку сегментации и страничной памяти.<br>
+         Любит низкоуровневое программирование и отладку<br>
+         без отладчика.</p>                       
+        <img src="./images/Group 4.png", class="RED">
+        <p class="Describe_4">Анастасия Павлова
+        <br>Инженер драйверов<br></p>
+         <p class="Describe_5">Отвечает за драйвер клавиатуры, видеопамяти, поддержку FAT32<br>
+          и будущие драйверы для дисков. Умеет работать с портами<br>
+          ввода-вывода и прерываниями.</p>                       
+    </div>
+        <div class="Content_4 parallax">
+        <img src="./images/Group 3.png", class="YELLOW">
+        <p class="Describe_6">Александр Смирнов
+         <br>Разработчик микроядра<br></p>
+         <p class="Describe_7">Реализует управление процессами, переключение контекста,<br>
+            системные вызовы и синхронизацию. Любит писать на языке<br>
+            Cи и ассемблере, настраивать таймеры и очереди задач.
+        <img src="./images/Group 2.png", class="PINK">
+        <p class="Describe_8">Дмитрий Кузнецов
+        <br> Разработчик графического интерфейса<br></p>
+         <p class="Describe_9"><br>
+          Создаёт оконную систему, буферы кадров, минималистичные<br>
+          виджеты и обработку событий мыши/клавиатуры для StyleOS.</p>                       
+    </div>
+    <div class="Content_5 parallax">
+        <form class="FORM" action="https://api.web3forms.com/submit" method="POST">
+            <p class="Describe_10">ОБРАТНАЯ СВЯЗЬ</p>
+            <input type="hidden" name="access_key" value="b10bc7c5-f19e-4d80-993c-f2ed15bb4bee">
+            <div class="Name">
+             <label>
+                <legend class="Be">Имя</legend>
+                <input type="text", class="Name" name="name" required>
+             </label>
+             </div>
+             <div class="Username">
+             <label>
+                <legend>Email</legend>
+                <input type="email", class="Email" name="email" required>
+             </label>
+             </div>
+             <div class="Number_Phone">
+             <label>
+                <legend>Номер телефона</legend>
+                <input type="text", class="Number" name="phone">
+             </label>
+             </div>
+        <button class="btn" type="submit">ОТПРАВИТЬ</button>
+        </form>
+    </div>
+    </div>
+    <footer class="FOTTER_site">
+     <p class="I_P">ИП Иванов Г.М</p>
+     <p class="I_P">ИНН 239024876145</p>
+     <p class="adress_NUM_OOO">Уфа ул.Ленина д.120</p>
+     <p class="adress_NUM_OOO">т. +72084019812</p>
+    </footer>
+</body>
+</html>
